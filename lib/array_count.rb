@@ -1,7 +1,6 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
-  array.count do |string|
-    array is_a? String 
+  array.count is_a? String 
   end
 end
 
