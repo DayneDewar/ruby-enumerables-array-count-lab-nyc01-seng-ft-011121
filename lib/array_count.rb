@@ -5,7 +5,6 @@ def count_strings(array)
      array[i].is_a? String
    end
      i += 1
-  end
 return
 end
 
